@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td><label for="name"><strong>Name</strong></label></td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="email"><strong>Email</strong></label></td>
+            <td>
+                <input type="email" name="email" id="email">
+                <button type="button">Check</button>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="age"><strong>Age</strong></label></td>
+            <td><input type="text" name="age" id="age" size="2" maxlength="2"></td>
+        </tr>
+        <tr>
+            <td><label for="country"><strong>Country</strong></label></td>
+            <td><input type="text" name="country" id="country" value="india" disabled></td>
+        </tr>
+        <tr>
+            <td><label for="password"><strong>Password</strong></label></td>
+            <td><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+            <td><label for="resume"><strong>Resume</strong></label></td>
+            <td><input type="file" name="resume" id="resume" /></td>
+        </tr>
+        <tr>
+            <td><label for="hobbies"><strong>Hobbies</strong></label></td>
+            <td><input type="checkbox" name="hobbies" id="" checked/><strong>Cricket</strong>
+            <input type="checkbox" name="hobbies" id=""> <strong>Football</strong></td>
+        </tr>
+        <tr>
+            <td><label for="gender"><strong>Gender</strong></label></td>
+            <td>
+                <input type="radio" name="gender" id=""><strong>Female</strong>
+                <input type="radio" name="gender" id=""><strong>Male</strong>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="city"><strong>City</strong></label></td>
+            <td>
+                <select name="city" id="city">
+                    <option  disabled selected>--Choose a city--</option>
+                    <optgroup label="Metros">
+                        <option value="Banglore">Banglore</option>
+                        <option value="Mysore">Mysore</option>
+                    </optgroup>
+                    <optgroup label="Others">
+                        <option value="Mandya">Mandya</option>
+                        <option value="Srirangapatna">Srirangapatna</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="address"><strong>Address</strong></label></td>
+            <td><textarea name="" id="" cols="30" rows="5">
+            </textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
